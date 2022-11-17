@@ -1,0 +1,14 @@
+---
+AccessModifierOffset: -4
+BasedOnStyle: Google
+ColumnLimit: 120
+IndentWidth: '2'
+NamespaceIndentation: All
+TabWidth: '2'
+UseTab: Never
+AlignAfterOpenBracket: AlwaysBreak
+AllowAllParametersOfDeclarationOnNextLine: false
+BinPackArguments: false
+BinPackParameters: false
+
+...
