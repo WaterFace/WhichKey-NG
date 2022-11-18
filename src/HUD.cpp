@@ -20,9 +20,12 @@ namespace HUD {
               // if the player has a copy of that key...
               std::string text{data->text};
               auto splitText = stl::string::split(text, "\n");
+              if (splitText.size() > kLock) {  // Then this side of the door is actually locked
               splitText[kLock] = std::format(diamondMarkerFmt, key->GetFullName());
               text = stl::string::join(splitText, "\n");
               data->text = text;
+            }
+              // Otherwise, it's the other side that's locked.
             }
           }
         }
