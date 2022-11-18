@@ -6,7 +6,7 @@ message("Using toolchain file ${CMAKE_TOOLCHAIN_FILE}.")
 ########################################################################################################################
 project(
         WhichKey-NG
-        VERSION 1.0.0
+        VERSION 1.1.0
         DESCRIPTION "A plugin that shows which key will unlock a door or container"
         LANGUAGES CXX)
 set(CMAKE_CXX_STANDARD 23)
